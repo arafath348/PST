@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  PST
 //
-//  Created by Mohamed Ariff on 10/05/17.
+//  Created by Arafath on 10/05/17.
 //
 //
 
@@ -16,6 +16,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        sleep(3)
+        
+        
+        UINavigationBar.appearance().barStyle = .blackOpaque
+        UINavigationBar.appearance().barTintColor = UIColor(red: 0/255.0, green:127/255.0, blue: 14/255.0, alpha: 1.0)
+        UINavigationBar.appearance().tintColor = UIColor.white
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName:UIColor.white]
+        
+        
         return true
     }
 

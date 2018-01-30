@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="9lo-xn-twS">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="PU4-FQ-Def">
+            <objects>
+                <viewController id="9lo-xn-twS" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lgN-wJ-m5S"/>
+                        <viewControllerLayoutGuide type="bottom" id="5z1-R6-47L"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lBH-o2-wIl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="P S T" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ch1-8o-lZo">
+                                <rect key="frame" x="0.0" y="285" width="375" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="zvO-jX-3rl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D0v-yH-040">
+                                <rect key="frame" x="0.0" y="333" width="375" height="1"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="RVE-k8-EG8"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Foex Management System" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="onI-g1-BBh">
+                                <rect key="frame" x="0.0" y="342" width="375" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="GPb-BR-TBT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.10462761670351028" green="0.50036418437957764" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="onI-g1-BBh" firstAttribute="leading" secondItem="lBH-o2-wIl" secondAttribute="leading" id="5U6-1x-lfA"/>
+                            <constraint firstItem="D0v-yH-040" firstAttribute="top" secondItem="Ch1-8o-lZo" secondAttribute="bottom" constant="8" id="8H3-Rv-6Tq"/>
+                            <constraint firstAttribute="trailing" secondItem="onI-g1-BBh" secondAttribute="trailing" id="A5b-XC-YpV"/>
+                            <constraint firstAttribute="trailing" secondItem="Ch1-8o-lZo" secondAttribute="trailing" id="Ge8-Ic-OEd"/>
+                            <constraint firstItem="D0v-yH-040" firstAttribute="centerY" secondItem="lBH-o2-wIl" secondAttribute="centerY" id="W4S-ng-vWN"/>
+                            <constraint firstItem="onI-g1-BBh" firstAttribute="top" secondItem="D0v-yH-040" secondAttribute="bottom" constant="8" id="WG7-gS-VbI"/>
+                            <constraint firstItem="D0v-yH-040" firstAttribute="leading" secondItem="Ch1-8o-lZo" secondAttribute="leading" id="fu8-LY-6YV"/>
+                            <constraint firstItem="Ch1-8o-lZo" firstAttribute="leading" secondItem="lBH-o2-wIl" secondAttribute="leading" id="rJR-gq-2kX"/>
+                            <constraint firstItem="D0v-yH-040" firstAttribute="trailing" secondItem="Ch1-8o-lZo" secondAttribute="trailing" id="yFC-Mb-Hpt"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n9e-Yg-uXb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1844" y="-3037"/>
+        </scene>
+    </scenes>
+</document>
